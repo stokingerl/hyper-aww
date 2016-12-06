@@ -12,7 +12,7 @@ const css = `
         width: 100%;
         height: 100%;
         z-index: 0;
-        opacity: 0.3;
+        opacity: 0.4;
         background-image: url('` + randomUrl + `');
         background-repeat: no-repeat;
         background-position: 50% 0;
