@@ -1,0 +1,19 @@
+{
+  "name": "hyper-aww",
+  "version": "1.0.0",
+  "description": "Cute animal gifs as your terminal background",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stokingerl/hyper-aww.git"
+  },
+  "keywords": [
+    "hyper",
+    "aww",
+    "cute",
+    "animals"
+  ],
+  "author": "stokingerl <liamstokinger@gmail.com>",
+  "license": "MIT"
+}
