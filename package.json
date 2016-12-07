@@ -1,6 +1,6 @@
 {
   "name": "hyper-aww",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Cute animal gifs as your terminal background",
   "main": "index.js",
   "scripts": {},
