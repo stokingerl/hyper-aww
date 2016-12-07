@@ -15,7 +15,6 @@ exports.urlArray = [
   'http://i.imgur.com/QXXbp7I.gif',
   'http://i.imgur.com/LXFYmPU.gif',
   'http://i.imgur.com/KOnkRCy.gif',
-  'http://i.imgur.com/wA0saXi.gif',
   'http://i.imgur.com/0RSkLtl.gif',
   'http://i.imgur.com/Jgj3lol.gif',
   'http://i.imgur.com/OGHpflB.gif',
