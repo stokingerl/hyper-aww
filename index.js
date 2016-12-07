@@ -1,8 +1,8 @@
 const urlArray = require("./image-array.js").urlArray;
-
-const randomUrl = urlArray[Math.floor(Math.random() * urlArray.length)];
 const background = '#5a5a5a';
-const css = `
+
+const getCss = (randomUrl) => {
+  const css = `
     body:before {
         content: ' ';
         display: block;
@@ -23,8 +23,17 @@ const css = `
         background-size: cover;
     }`;
 
-exports.decorateConfig = config =>
-  Object.assign({}, config, {
+    return css;
+}
+
+exports.decorateConfig = config => {
+  const randomUrl = urlArray[Math.floor(Math.random() * urlArray.length)];
+  const css = getCss(randomUrl);
+
+  const newObj = Object.assign({}, config, {
     css: config.css ? config.css + css : css,
     backgroundColor: background
   });
+
+  return newObj;
+}

@@ -1,7 +1,9 @@
 # hyper-aww
-Hyper plug in for a random cute animal gif as your terminal background (I promise it's much less choppy than this gif!)
+Hyper plug in for a random cute animal gif as your terminal background.
 
-![Demo](http://i.imgur.com/hh4U4T9.gif)
+Now shows a new gif with each window! (v1.1.0)
+
+![Demo](https://media.giphy.com/media/l2JhKIyusyzlMyz5K/giphy.gif)
 
 # Install
 Install [Hyper](https://hyper.is)
